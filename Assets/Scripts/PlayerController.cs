@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    
+    //public int speed
+    //public int maxvelocity
 
     // Start is called before the first frame update
     void Start()
