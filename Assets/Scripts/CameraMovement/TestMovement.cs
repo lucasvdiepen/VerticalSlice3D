@@ -8,7 +8,8 @@ public class TestMovement : MonoBehaviour
     private Vector3 movement;
     [SerializeField]private float moveSpeed;
 
-    private void Awake() {
+    private void Awake() 
+    {
         rb = gameObject.GetComponent<Rigidbody>();    
     }
 
@@ -17,11 +18,10 @@ public class TestMovement : MonoBehaviour
     {
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
-
     }
 
-    private void FixedUpdate() {
+    private void FixedUpdate() 
+    {
         rb.MovePosition(rb.position += movement * moveSpeed * Time.fixedDeltaTime);
-         //rb.MovePosition(transform.position += movement * moveSpeed * Time.deltaTime);
     }
 }
