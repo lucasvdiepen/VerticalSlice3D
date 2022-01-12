@@ -9,7 +9,7 @@ public class CameraMovement : MonoBehaviour
     [SerializeField]private float accelerationSpeed;
     
     // Update is called once per frame
-    private void Update()
+    private void FixedUpdate()
     {
         transform.position = Vector3.Lerp(transform.position, target.transform.position + cameraOffset, accelerationSpeed * Time.deltaTime);
     }
