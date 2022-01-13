@@ -5,10 +5,10 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     [SerializeField] private float maxVelocity = 10f;
-    public float speed = 1f;
+    [SerializeField] private float speed = 1f;
+    [SerializeField] private float jumpFactor = 6f;
     private bool isGrounded;
     private bool onSlope;
-    public float jumpFactor = 6f;
 
     void OnCollisionEnter(Collision other)
     {
