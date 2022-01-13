@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    public float maxVelocity = 10f;
+    [SerializeField] private float maxVelocity = 10f;
     public float speed = 1f;
     private bool isGrounded;
     private bool onSlope;
@@ -12,11 +12,11 @@ public class PlayerController : MonoBehaviour
 
     void OnCollisionEnter(Collision other)
     {
-        if (other.gameObject.tag == "Ground")
+        if (other.gameObject.CompareTag("Ground"))
         {
             isGrounded = true;
         }
-        if (other.gameObject.tag == "Slope")
+        if (other.gameObject.CompareTag("Slope"))
         {
             onSlope = true;
         }
@@ -24,11 +24,11 @@ public class PlayerController : MonoBehaviour
 
     void OnCollisionExit(Collision other)
     {
-        if (other.gameObject.tag == "Ground")
+        if (other.gameObject.CompareTag("Ground"))
         {
             isGrounded = false;
         }
-        if (other.gameObject.tag == "Slope")
+        if (other.gameObject.CompareTag("Slope"))
         {
             onSlope = false;
         }
