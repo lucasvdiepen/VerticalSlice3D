@@ -10,11 +10,6 @@ public class PlayerController : MonoBehaviour
     private bool onSlope;
     public float jumpFactor = 6f;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
     void OnCollisionEnter(Collision other)
     {
         if (other.gameObject.tag == "Ground")
