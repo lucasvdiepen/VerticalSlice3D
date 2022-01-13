@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 9068704097923487103}
   m_Layer: 0
   m_Name: FlyingObject
-  m_TagString: Untagged
+  m_TagString: FlyingObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -125,4 +125,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: abb0a9ff0e02af44b92f306ce790f14f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  initialAngle: 0
+  initialAngle: 30
