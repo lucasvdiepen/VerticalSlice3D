@@ -11,7 +11,7 @@ public class FlyingObject : MonoBehaviour
         rb = GetComponent<Rigidbody>();
     }
 
-    public void ThrowObject(Vector3 target, float initialAngle)
+    public void ThrowObject(Vector3 target, float initialAngle, float angularSpeed)
     {
         Vector3 direction = target - transform.position;
         float height = direction.y;
@@ -24,7 +24,10 @@ public class FlyingObject : MonoBehaviour
         distance += height / Mathf.Tan(radAngle);
 
         float velocity = Mathf.Sqrt(distance * Physics.gravity.magnitude / Mathf.Sin(2 * radAngle));
+
+        transform.rotation = Quaternion.LookRotation(direction);
         rb.velocity = velocity * direction.normalized;
+        rb.angularVelocity = rb.transform.right * angularSpeed;
 
         Destroy(gameObject, 5f);
     }

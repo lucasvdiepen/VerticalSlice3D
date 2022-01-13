@@ -10,6 +10,9 @@ public class FlyingObjectsSpawner : MonoBehaviour
     [SerializeField] private float randomYRange = 1f;
     [SerializeField] private float minAngle = 20;
     [SerializeField] private float maxAngle = 30;
+    [SerializeField] private float minAngularSpeed = 0.8f;
+    [SerializeField] private float maxAngularSpeed = 1.5f;
+
     private Transform target;
 
     private void Start()
@@ -37,7 +40,7 @@ public class FlyingObjectsSpawner : MonoBehaviour
             //Get target position with random x in range
             Vector3 targetPosition = new Vector3(Random.Range(target.position.x - randomXRange, target.position.x + randomXRange), Random.Range(target.position.y - randomYRange, target.position.y + randomYRange), target.position.z);
 
-            newObject.GetComponent<FlyingObject>().ThrowObject(targetPosition, Random.Range(minAngle, maxAngle));
+            newObject.GetComponent<FlyingObject>().ThrowObject(targetPosition, Random.Range(minAngle, maxAngle), Random.Range(minAngularSpeed, maxAngularSpeed));
         }
     }
 
