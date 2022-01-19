@@ -41,14 +41,13 @@ public class ToggleLight : MonoBehaviour
         for (int i = 0; i < 2; i++)
         {
             colorState = !colorState;
-            switch (colorState)
+            if (colorState)
             {
-                case true:
-                    newColor = Color.white;
-                    break;
-                case false:
-                    newColor = new Color(0, 0, 0, 0);
-                    break;
+                newColor = Color.white;
+            }
+            else
+            {
+                newColor = new Color(0, 0, 0, 0);
             }
             yield return new WaitForSeconds(blinkSpeed);
         }
