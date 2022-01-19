@@ -10,6 +10,10 @@ public class FlyingObjectsSpawner : MonoBehaviour
     [SerializeField] private float randomYRange = 1f;
     [SerializeField] private float minAngle = 20;
     [SerializeField] private float maxAngle = 30;
+    [SerializeField] private float minSpawnX = -4f;
+    [SerializeField] private float maxSpawnX = 4f;
+    [SerializeField] private float minSpawnY = 0f;
+    [SerializeField] private float maxSpawnY = 3f;
     [SerializeField] private float minAngularSpeed = 0.8f;
     [SerializeField] private float maxAngularSpeed = 1.5f;
 
@@ -27,7 +31,7 @@ public class FlyingObjectsSpawner : MonoBehaviour
         for(int i = 0; i < objectsToSpawn; i++)
         {
             //Spawn random object
-            GameObject newObject = Instantiate(objects[Random.Range(0, objects.Length)], transform.position, Quaternion.identity);
+            GameObject newObject = Instantiate(objects[Random.Range(0, objects.Length)], new Vector3(Random.Range(minSpawnX + transform.position.x, maxSpawnX + transform.position.x), Random.Range(minSpawnY + transform.position.y, maxSpawnY + transform.position.y), transform.position.z), Quaternion.identity);
             Collider newObjectCollider = newObject.GetComponent<Collider>();
 
             //Ignore collision with other spawned objects
