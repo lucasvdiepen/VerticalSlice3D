@@ -6,7 +6,7 @@ public class ToggleLight : MonoBehaviour
 {
     private bool colorState;
     private Color lightColor, newColor;
-    [SerializeField] private float onSpeed, OffSpeed;
+    [SerializeField] private float onSpeed, offSpeed;
     [SerializeField] private float blinkRate, blinkSpeed;
 
     // Start is called before the first frame update
@@ -32,7 +32,7 @@ public class ToggleLight : MonoBehaviour
         }
         else
         {
-            lightColor = Color.Lerp(lightColor, newColor, OffSpeed * Time.deltaTime);
+            lightColor = Color.Lerp(lightColor, newColor, offSpeed * Time.deltaTime);
         }
         gameObject.GetComponent<VLight>().colorTint = lightColor;
     }
