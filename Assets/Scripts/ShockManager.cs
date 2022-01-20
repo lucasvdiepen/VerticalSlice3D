@@ -13,6 +13,7 @@ public class ShockManager : MonoBehaviour
         lastShockTime = Time.time;
 
         FindObjectOfType<ToggleLight>().BlinkLight();
+        FindObjectOfType<CameraShake>().StartShake();
         FindObjectOfType<FlyingObjectsSpawner>().SpawnObjects();
     }
 
