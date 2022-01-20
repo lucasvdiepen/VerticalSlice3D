@@ -4,8 +4,7 @@ using UnityEngine;
 
 public class PlayerRaycast : MonoBehaviour
 {
-    public GameObject player;//puntkomma
-    [SerializeField] private float raycastLength;
+    [SerializeField] private float raycastLength;//puntkomma
     RaycastHit hitData;
 
     public bool RaycastHitPlayer()
@@ -15,8 +14,7 @@ public class PlayerRaycast : MonoBehaviour
         Vector3 hitPosition = hitData.point;
 
         if (Physics.Raycast(ray, out hitData, raycastLength))
-        {
-            
+        {            
             return hitData.collider.CompareTag("Player");
         }
         return false;
