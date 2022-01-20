@@ -2,6 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+//>>DE MESH COLLIDER TELT NIET, LET OP<<
+//Gebruik een box collider of iets voor muren
+
 public class PlayerRaycast : MonoBehaviour
 {
     [SerializeField] private float raycastLength;//puntkomma
