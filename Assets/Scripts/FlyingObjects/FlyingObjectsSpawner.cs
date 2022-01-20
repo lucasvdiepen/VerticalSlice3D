@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class FlyingObjectsSpawner : MonoBehaviour
 {
+    [SerializeField] private Transform target;
     [SerializeField] private GameObject[] objects;
     [SerializeField] private int objectsToSpawn = 5;
     [SerializeField] private float randomXRange = 4f;
@@ -16,13 +17,6 @@ public class FlyingObjectsSpawner : MonoBehaviour
     [SerializeField] private float maxSpawnY = 3f;
     [SerializeField] private float minAngularSpeed = 0.8f;
     [SerializeField] private float maxAngularSpeed = 1.5f;
-
-    private Transform target;
-
-    private void Start()
-    {
-        target = GameObject.FindGameObjectWithTag("Player").transform;
-    }
 
     public void SpawnObjects()
     {
