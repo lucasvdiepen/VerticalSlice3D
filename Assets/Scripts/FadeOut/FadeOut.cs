@@ -15,12 +15,12 @@ public class FadeOut : MonoBehaviour
     }
     public void Fade() 
     {
-        fadeAnim.SetTrigger("Fade");
+        fadeAnim.SetTrigger("fade");
         Invoke("FadeOutAnimation", timer);
     }
     public void FadeOutAnimation() 
     {
-        fadeAnim.SetTrigger("FadeOut");
+        fadeAnim.SetTrigger("fadeOut");
     }
     public void ResetScene() 
     {
