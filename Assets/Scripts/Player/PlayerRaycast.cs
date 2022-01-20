@@ -7,7 +7,7 @@ using UnityEngine;
 
 public class PlayerRaycast : MonoBehaviour
 {
-    [SerializeField] private float raycastLength;//puntkomma
+    [SerializeField] private float raycastLength;
 
     public bool RaycastHitPlayer()
     {
