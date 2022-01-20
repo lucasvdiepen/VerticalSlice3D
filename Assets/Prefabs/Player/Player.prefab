@@ -348,7 +348,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxVelocity: 10
-  speed: 0.7
+  speed: 1.225
   jumpFactor: 14
 --- !u!54 &8840286332578464250
 Rigidbody:

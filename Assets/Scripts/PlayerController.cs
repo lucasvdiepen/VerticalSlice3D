@@ -39,9 +39,9 @@ public class PlayerController : MonoBehaviour
     {
         Rigidbody rb = GetComponent<Rigidbody>();
         if (Input.GetKey(KeyCode.A) && !onSlope)
-            rb.AddForce(new Vector3(-1.75f, 0, 0) * speed);
+            rb.AddForce(Vector3.left * speed);
         if (Input.GetKey(KeyCode.D) && !onSlope)
-            rb.AddForce(new Vector3(1.75f,0,0) * speed);
+            rb.AddForce(Vector3.right * speed);
         if (Input.GetKey(KeyCode.W))
             rb.AddForce(Vector3.forward * speed);
         if (Input.GetKey(KeyCode.S))
