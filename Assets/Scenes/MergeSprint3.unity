@@ -1037,23 +1037,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8106122838765697353, guid: 06dbaa76739d36f4a855201770419cf4, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.53285
+      value: 0.49576
       objectReference: {fileID: 0}
     - target: {fileID: 8106122838765697353, guid: 06dbaa76739d36f4a855201770419cf4, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.53285
+      value: 0.49576
       objectReference: {fileID: 0}
     - target: {fileID: 8106122838765697353, guid: 06dbaa76739d36f4a855201770419cf4, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.53285
+      value: 0.49576
       objectReference: {fileID: 0}
     - target: {fileID: 8106122838765697353, guid: 06dbaa76739d36f4a855201770419cf4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.2030787
+      value: 3.2031
       objectReference: {fileID: 0}
     - target: {fileID: 8106122838765697353, guid: 06dbaa76739d36f4a855201770419cf4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 14.85
+      value: 14.84
       objectReference: {fileID: 0}
     - target: {fileID: 8106122838765697353, guid: 06dbaa76739d36f4a855201770419cf4, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1091,14 +1091,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Lamp
       objectReference: {fileID: 0}
-    - target: {fileID: 8106122839752459796, guid: 06dbaa76739d36f4a855201770419cf4, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 8fe94d43efac4d3429a9f3b1365ddcb7, type: 2}
-    - target: {fileID: 8106122840341717987, guid: 06dbaa76739d36f4a855201770419cf4, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 8fe94d43efac4d3429a9f3b1365ddcb7, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 06dbaa76739d36f4a855201770419cf4, type: 3}
 --- !u!1 &1934192940
