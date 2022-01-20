@@ -47,13 +47,4 @@ public class FlyingObjectsSpawner : MonoBehaviour
             newObject.GetComponent<FlyingObject>().ThrowObject(targetPosition, Random.Range(minAngle, maxAngle), Random.Range(minAngularSpeed, maxAngularSpeed));
         }
     }
-
-    private void Update()
-    {
-        //For testing
-        if(Input.GetKeyDown(KeyCode.Space))
-        {
-            SpawnObjects();
-        }
-    }
 }
