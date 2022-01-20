@@ -25,14 +25,10 @@ public class Lamp : MonoBehaviour
         {
             lampState = !lampState;
             lamp.SetActive(lampState);
-            if (lampState) 
-            {
-                lampRend.material = onMat;
-            }
-            else 
-            {
-                lampRend.material = offMat;
-            }
+
+            if (lampState) lampRend.material = onMat; 
+            else lampRend.material = offMat; 
+
             yield return new WaitForSeconds(Random.Range(.1f, .3f));
         }
         lampRend.material = onMat;
