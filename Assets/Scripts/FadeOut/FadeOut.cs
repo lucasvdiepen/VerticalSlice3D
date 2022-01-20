@@ -7,21 +7,25 @@ public class FadeOut : MonoBehaviour
 {
     private Animator fadeAnim;
     [SerializeField] private float timer;
-    [SerializeField] private string sceneName;
 
     private void Start()
     {
         fadeAnim = gameObject.GetComponent<Animator>();
     }
+
     public void Fade() 
     {
-        fadeAnim.SetTrigger("fade");
+        fadeAnim.SetTrigger("Fade");
         Invoke("FadeOutAnimation", timer);
     }
+
+    //Called by animation keyframe
     public void FadeOutAnimation() 
     {
-        fadeAnim.SetTrigger("fadeOut");
+        fadeAnim.SetTrigger("FadeOut");
     }
+
+    //Called by animation keyframe
     public void ResetScene() 
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);

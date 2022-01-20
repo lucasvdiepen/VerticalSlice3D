@@ -19,6 +19,8 @@ public class ShockManager : MonoBehaviour
         FindObjectOfType<CameraShake>().StartShake();
         FindObjectOfType<FlyingObjectsSpawner>().SpawnObjects();
 
+        FindObjectOfType<PlayerDeath>().CheckPlayerRaycast();
+
         Lamp[] lamps = FindObjectsOfType<Lamp>();
         foreach (Lamp lamp in lamps) lamp.BlinkLight();
 
