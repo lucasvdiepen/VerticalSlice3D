@@ -22,10 +22,6 @@ public class ToggleLight : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            BlinkLight();
-        }
         if (colorState)
         {
             lightColor = Color.Lerp(lightColor, newColor, onSpeed * Time.deltaTime);

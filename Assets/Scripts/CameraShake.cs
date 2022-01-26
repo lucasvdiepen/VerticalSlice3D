@@ -7,7 +7,7 @@ public class CameraShake : MonoBehaviour
     [SerializeField] private float duration = 0.1f;
     [SerializeField] private float magnitude = 0.1f;
 
-    public IEnumerator Shake()
+    private IEnumerator Shake()
     {
         Vector3 pos = transform.localPosition;
         float timeElapsed = 0;
@@ -26,12 +26,8 @@ public class CameraShake : MonoBehaviour
         transform.localPosition = pos;
     }
 
-    private void Update()
+    public void StartShake()
     {
-        //For testing
-        if(Input.GetKeyDown(KeyCode.Space))
-        {
-            StartCoroutine(Shake());
-        }
+        StartCoroutine(Shake());
     }
 }

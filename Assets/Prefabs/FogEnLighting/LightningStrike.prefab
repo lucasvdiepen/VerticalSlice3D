@@ -108,7 +108,7 @@ GameObject:
   - component: {fileID: 2695462669176243495}
   - component: {fileID: 6312293541146855758}
   m_Layer: 8
-  m_Name: V-Light 3
+  m_Name: LightningStrike
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -129,7 +129,7 @@ Transform:
   - {fileID: 2270797229421217979}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!33 &2695462669176243496
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -244,7 +244,7 @@ MonoBehaviour:
   quadraticAttenuation: 97.6
   aspect: 1
   slices: 61
-  colorTint: {r: 1, g: 1, b: 1, a: 1}
+  colorTint: {r: 1, g: 1, b: 1, a: 0}
   noiseSpeed: {x: 0, y: 0, z: 0}
   useDithering: 0
   ditherAmount: 0
@@ -347,7 +347,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   onSpeed: 100
-  OffSpeed: 10
+  offSpeed: 10
   blinkRate: 0.5
   blinkSpeed: 0.2
 --- !u!1 &3858566060036781554
