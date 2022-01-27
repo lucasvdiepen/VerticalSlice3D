@@ -21,6 +21,8 @@ public class ShockManager : MonoBehaviour
 
         FindObjectOfType<PlayerDeath>().CheckPlayerRaycast();
 
+        FindObjectOfType<CraneController>().DoCraneAnimation();
+
         Lamp[] lamps = FindObjectsOfType<Lamp>();
         foreach (Lamp lamp in lamps) lamp.BlinkLight();
 
@@ -35,10 +37,10 @@ public class ShockManager : MonoBehaviour
 
     private void Update()
     {
-        if (Time.time >= (lastShockTime + timeBetweenShocks) && !shockDone)
+        /*if (Time.time >= (lastShockTime + timeBetweenShocks) && !shockDone)
         {
             shockDone = true;
             StartShock();
-        }
+        }*/
     }
 }
