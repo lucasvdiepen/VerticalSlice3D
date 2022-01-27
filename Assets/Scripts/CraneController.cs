@@ -5,19 +5,34 @@ using UnityEngine;
 public class CraneController : MonoBehaviour
 {
     private Animator animator;
+    private bool isCraneDown = false;
 
     private void Start()
     {
         animator = GetComponent<Animator>();
     }
 
-    public void CraneUP()
+    private void CraneUp()
     {
-        animator.SetTrigger("");
+        animator.SetTrigger("CraneUp");
+        isCraneDown = false;
     }
 
-    public void CraneDown()
+    private void CraneDown()
     {
+        animator.SetTrigger("CraneDown");
+        isCraneDown = true;
+    }
 
+    public void DoCraneAnimation()
+    {
+        if (isCraneDown) CraneUp();
+        else CraneDown();
+    }
+
+    //Called by animation event
+    public void StartShakeEvent()
+    {
+        FindObjectOfType<ShockManager>().StartShock();
     }
 }
