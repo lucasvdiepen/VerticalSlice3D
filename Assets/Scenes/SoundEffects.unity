@@ -366,79 +366,17 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 340195900}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &400051229
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 400051231}
-  - component: {fileID: 400051230}
-  m_Layer: 0
-  m_Name: Audiomanager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &400051230
+--- !u!114 &400051230 stripped
 MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 3671474676331908682, guid: dba2d767d6197694db2b19d9d7aedd29, type: 3}
+  m_PrefabInstance: {fileID: 3671474676577813076}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 400051229}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4be53f42cf0aee147933a05d8144f1b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playAmbient: 1
-  sounds:
-  - mixer: {fileID: 24300002, guid: f8961a61b4be9e94ba7ac0b8ca5fafda, type: 2}
-    name: pulseray
-    clip: {fileID: 8300000, guid: 25aacab5f39b75344a67b41bb3b767c4, type: 3}
-    volume: 0.425
-    pitch: 1
-    loop: 0
-    source: {fileID: 0}
-  - mixer: {fileID: 24300002, guid: f8961a61b4be9e94ba7ac0b8ca5fafda, type: 2}
-    name: footstep
-    clip: {fileID: 8300000, guid: b0d7613380fb9fe4e8ae9881d209e559, type: 3}
-    volume: 1
-    pitch: 1
-    loop: 0
-    source: {fileID: 0}
-  - mixer: {fileID: 24300002, guid: f8961a61b4be9e94ba7ac0b8ca5fafda, type: 2}
-    name: landing
-    clip: {fileID: 8300000, guid: c6391406d77de7649a8ec507f58b7670, type: 3}
-    volume: 0.339
-    pitch: 1
-    loop: 0
-    source: {fileID: 0}
-  - mixer: {fileID: 24300002, guid: f8961a61b4be9e94ba7ac0b8ca5fafda, type: 2}
-    name: ambient
-    clip: {fileID: 8300000, guid: 43c13f254eb470246b0914857f74a976, type: 3}
-    volume: 0.159
-    pitch: 1
-    loop: 0
-    source: {fileID: 0}
---- !u!4 &400051231
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 400051229}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.26670933, y: 15.913, z: -9.81}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 10
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &408319474
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -625,79 +563,17 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 556193517}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &651496369
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 651496371}
-  - component: {fileID: 651496370}
-  m_Layer: 0
-  m_Name: AudiomanagerPulseRay
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &651496370
+--- !u!114 &651496370 stripped
 MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 1132902362379219029, guid: bf49882d83b604a48b6b5d3a2c533354, type: 3}
+  m_PrefabInstance: {fileID: 1132902361862601703}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 651496369}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4be53f42cf0aee147933a05d8144f1b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playAmbient: 0
-  sounds:
-  - mixer: {fileID: 24300002, guid: f8961a61b4be9e94ba7ac0b8ca5fafda, type: 2}
-    name: pulseray
-    clip: {fileID: 8300000, guid: 25aacab5f39b75344a67b41bb3b767c4, type: 3}
-    volume: 0.425
-    pitch: 1
-    loop: 0
-    source: {fileID: 0}
-  - mixer: {fileID: 24300002, guid: f8961a61b4be9e94ba7ac0b8ca5fafda, type: 2}
-    name: footstep
-    clip: {fileID: 8300000, guid: b0d7613380fb9fe4e8ae9881d209e559, type: 3}
-    volume: 1
-    pitch: 1
-    loop: 0
-    source: {fileID: 0}
-  - mixer: {fileID: 24300002, guid: f8961a61b4be9e94ba7ac0b8ca5fafda, type: 2}
-    name: landing
-    clip: {fileID: 8300000, guid: c6391406d77de7649a8ec507f58b7670, type: 3}
-    volume: 0.339
-    pitch: 1
-    loop: 0
-    source: {fileID: 0}
-  - mixer: {fileID: 24300002, guid: f8961a61b4be9e94ba7ac0b8ca5fafda, type: 2}
-    name: ambient
-    clip: {fileID: 8300000, guid: 43c13f254eb470246b0914857f74a976, type: 3}
-    volume: 0.159
-    pitch: 1
-    loop: 0
-    source: {fileID: 0}
---- !u!4 &651496371
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 651496369}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.26670933, y: 15.913, z: -9.81}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 11
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &700654369
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1729,6 +1605,120 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1934192940}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1001 &1132902361862601703
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1132902362379219028, guid: bf49882d83b604a48b6b5d3a2c533354, type: 3}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 1132902362379219028, guid: bf49882d83b604a48b6b5d3a2c533354, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.26670933
+      objectReference: {fileID: 0}
+    - target: {fileID: 1132902362379219028, guid: bf49882d83b604a48b6b5d3a2c533354, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 15.913
+      objectReference: {fileID: 0}
+    - target: {fileID: 1132902362379219028, guid: bf49882d83b604a48b6b5d3a2c533354, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -9.81
+      objectReference: {fileID: 0}
+    - target: {fileID: 1132902362379219028, guid: bf49882d83b604a48b6b5d3a2c533354, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1132902362379219028, guid: bf49882d83b604a48b6b5d3a2c533354, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1132902362379219028, guid: bf49882d83b604a48b6b5d3a2c533354, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1132902362379219028, guid: bf49882d83b604a48b6b5d3a2c533354, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1132902362379219028, guid: bf49882d83b604a48b6b5d3a2c533354, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1132902362379219028, guid: bf49882d83b604a48b6b5d3a2c533354, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1132902362379219028, guid: bf49882d83b604a48b6b5d3a2c533354, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1132902362379219030, guid: bf49882d83b604a48b6b5d3a2c533354, type: 3}
+      propertyPath: m_Name
+      value: AudiomanagerPulseRay
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: bf49882d83b604a48b6b5d3a2c533354, type: 3}
+--- !u!1001 &3671474676577813076
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3671474676331908681, guid: dba2d767d6197694db2b19d9d7aedd29, type: 3}
+      propertyPath: m_Name
+      value: Audiomanager
+      objectReference: {fileID: 0}
+    - target: {fileID: 3671474676331908683, guid: dba2d767d6197694db2b19d9d7aedd29, type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 3671474676331908683, guid: dba2d767d6197694db2b19d9d7aedd29, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.26670933
+      objectReference: {fileID: 0}
+    - target: {fileID: 3671474676331908683, guid: dba2d767d6197694db2b19d9d7aedd29, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 15.913
+      objectReference: {fileID: 0}
+    - target: {fileID: 3671474676331908683, guid: dba2d767d6197694db2b19d9d7aedd29, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -9.81
+      objectReference: {fileID: 0}
+    - target: {fileID: 3671474676331908683, guid: dba2d767d6197694db2b19d9d7aedd29, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3671474676331908683, guid: dba2d767d6197694db2b19d9d7aedd29, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3671474676331908683, guid: dba2d767d6197694db2b19d9d7aedd29, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3671474676331908683, guid: dba2d767d6197694db2b19d9d7aedd29, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3671474676331908683, guid: dba2d767d6197694db2b19d9d7aedd29, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3671474676331908683, guid: dba2d767d6197694db2b19d9d7aedd29, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3671474676331908683, guid: dba2d767d6197694db2b19d9d7aedd29, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: dba2d767d6197694db2b19d9d7aedd29, type: 3}
 --- !u!1001 &5191611626529519028
 PrefabInstance:
   m_ObjectHideFlags: 0
