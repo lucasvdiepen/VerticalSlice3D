@@ -6,6 +6,7 @@ public class CraneController : MonoBehaviour
 {
     private Animator animator;
     private bool isCraneDown = false;
+    [SerializeField] private AudioManager craneUp, craneDown;
 
     private void Start()
     {
@@ -34,5 +35,13 @@ public class CraneController : MonoBehaviour
     public void StartShakeEvent()
     {
         FindObjectOfType<ShockManager>().StartShock();
+    }
+    public void PulseRaySoundUp() 
+    {
+        craneUp.Play("pulseray");
+    }
+    public void PulseRaySoundDown() 
+    {
+        craneDown.Play("pulseray");
     }
 }

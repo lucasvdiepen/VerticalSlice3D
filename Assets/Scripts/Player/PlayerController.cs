@@ -4,17 +4,24 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+    [SerializeField]private bool isWalking;
+   [SerializeField] private AudioManager audioManager;
+
     [SerializeField] private float maxVelocity = 10f;
     [SerializeField] private float speed = 1f;
     [SerializeField] private float jumpFactor = 6f;
     private bool isGrounded;
     private bool onSlope;
 
+    private void Awake() {
+        InvokeRepeating("walkFootSteps", 0, .5f);
+    }
     void OnCollisionEnter(Collision other)
     {
         if (other.gameObject.CompareTag("Ground"))
         {
             isGrounded = true;
+            audioManager.Play("landing");
         }
         if (other.gameObject.CompareTag("Slope"))
         {
@@ -38,10 +45,16 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         Rigidbody rb = GetComponent<Rigidbody>();
-        if (Input.GetKey(KeyCode.A) && !onSlope)
+        if (Input.GetKey(KeyCode.A) && !onSlope) {
             rb.AddForce(Vector3.left * speed);
-        if (Input.GetKey(KeyCode.D) && !onSlope)
+            isWalking = true;
+
+        }
+        if (Input.GetKey(KeyCode.D) && !onSlope) {
             rb.AddForce(Vector3.right * speed);
+            isWalking = true;
+
+        }
         if (Input.GetKey(KeyCode.W))
             rb.AddForce(Vector3.forward * speed);
         if (Input.GetKey(KeyCode.S))
@@ -49,6 +62,9 @@ public class PlayerController : MonoBehaviour
         if (Input.GetKey(KeyCode.Space) && isGrounded)
             rb.AddForce(Vector3.up * speed * jumpFactor);
 
+        if (Input.GetKeyUp(KeyCode.A)) isWalking = false;
+        else if (Input.GetKeyUp(KeyCode.D)) isWalking = false;
+        else if (Input.GetKey(KeyCode.D) && Input.GetKey(KeyCode.A)) isWalking = false;
 
         if (rb.velocity.magnitude > maxVelocity)
         {
@@ -59,5 +75,11 @@ public class PlayerController : MonoBehaviour
         {
             rb.AddForce(new Vector3(1, 0, 0));
         }
+    }
+    private void walkFootSteps() {
+        if (!isWalking)
+            return;
+              
+        if(isGrounded) audioManager.Play("footstep");
     }
 }

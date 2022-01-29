@@ -5,22 +5,12 @@ using UnityEngine.SceneManagement;
 
 public class AudioManager : MonoBehaviour
 {
+    [SerializeField] private bool playAmbient;
     public static AudioManager instance;
     public Sound[] sounds;
     // Start is called before the first frame update
     void Awake()
     {
-        if (instance == null)
-            instance = this;
-        
-        else
-        {
-            Destroy(gameObject);
-            return;
-        }
-
-        DontDestroyOnLoad(gameObject);
-
         foreach (Sound s in sounds)
         {
             s.source = gameObject.AddComponent<AudioSource>();
@@ -30,7 +20,10 @@ public class AudioManager : MonoBehaviour
             s.source.pitch = s.pitch;
             s.source.loop = s.loop;
             s.source.outputAudioMixerGroup = s.mixer;
-        }      
+        }
+        if (!playAmbient)
+            return;
+        Play("ambient");
     }
 
     // Update is called once per frame
