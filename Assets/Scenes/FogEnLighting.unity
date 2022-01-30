@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.0040359246, g: 0.00022042835, b: 0.000000054381424, a: 1}
+  m_IndirectSpecularColor: {r: 0.0040003187, g: 0.00021821406, b: 0.00000005179666, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1058,7 +1058,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3682489900319265491, guid: 59fa98477cd32a24ebf0e5dbf6ed9c19, type: 3}
       propertyPath: m_Name
-      value: SilverSpotlight (2)
+      value: DownViewSpotlight
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 59fa98477cd32a24ebf0e5dbf6ed9c19, type: 3}

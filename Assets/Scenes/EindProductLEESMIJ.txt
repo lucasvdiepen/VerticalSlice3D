@@ -1,0 +1,29 @@
+Dit is een kleine samenvatting van wat er nog mist binnen ons product en wat er binnen deze dagen MOET gemaakt worden als we ons project "af" kunnen noemen
+
+
+
+
+
+
+-Models: We komen een flink tekort aan models voor beide de voorgrond en achtergrond.
+Ik weet niet of de artists nog bezig zijn met deze models maar hoe dan ook moeten er objects zitten in de voorgrond en achtergrond. Zo nodig maken we ze met objects in Unity
+
+-Scale issue en placement: De meeste objecten op de voorgrond van het project zijn niet correct gescaled met het origineel en moeten groter worden gemaakt of de player moet kleiner 
+(maar het is beter als we het level upscalen)
+
+-Visual Effects tweak: Sinds er nog weinig models zijn en we niet echt een perfect afgemaakt level hebben is het moeilijk voor mij om de visuals van de game perfect na te maken
+Dit kan opgelost worden door de problemen hier boven ook op te lossen zodat we makkelijk verder kunnen.
+
+
+
+
+
+
+
+
+
+
+
+
+
+-George Fritz
