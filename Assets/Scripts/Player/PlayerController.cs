@@ -89,6 +89,8 @@ public class PlayerController : MonoBehaviour
             goToRotation = -180;
         }
 
+        if (Input.GetKey(KeyCode.Return)) animator.SetTrigger("Slide");
+
         root.rotation = Quaternion.RotateTowards(root.rotation, Quaternion.Euler(new Vector3(0, goToRotation, 0)), Time.deltaTime * rotationSpeed);
 
         animator.SetBool("isRunning", isMoving);
