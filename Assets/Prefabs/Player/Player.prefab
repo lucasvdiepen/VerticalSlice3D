@@ -348,6 +348,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f61b595a2a2abfd4c91c507fcfaa93e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isWalking: 0
+  audioManager: {fileID: 0}
   maxVelocity: 10
   speed: 1.225
   jumpFactor: 14
