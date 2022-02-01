@@ -11,11 +11,14 @@ public class PlayerRaycast : MonoBehaviour
 
     public bool RaycastHitPlayer()
     {
+        Debug.Log("Raycast hit function");
+
         Ray ray = new Ray(transform.position, transform.forward);
         Debug.DrawRay(ray.origin, ray.direction * 10);
 
         if (Physics.Raycast(ray, out RaycastHit hitData, raycastLength))
-        {            
+        {
+            Debug.Log(hitData.collider.tag);
             return hitData.collider.CompareTag("Player");
         }
         return false;
