@@ -5,6 +5,8 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     [SerializeField] private Transform root;
+    [SerializeField] private bool isWalking;
+    [SerializeField] private AudioManager audioManager;
     [SerializeField] private float maxVelocity = 10f;
     [SerializeField] private float speed = 1f;
     [SerializeField] private float jumpFactor = 6f;
@@ -14,11 +16,15 @@ public class PlayerController : MonoBehaviour
     private float goToRotation = 0f;
     [SerializeField] private Animator animator;
 
+    private void Awake() {
+        InvokeRepeating("WalkFootSteps", 0, .5f);
+    }
     void OnCollisionEnter(Collision other)
     {
         if (other.gameObject.CompareTag("Ground"))
         {
             isGrounded = true;
+            audioManager.Play("landing");
         }
         if (other.gameObject.CompareTag("Slope"))
         {
@@ -44,15 +50,18 @@ public class PlayerController : MonoBehaviour
         bool isMoving = false;
 
         Rigidbody rb = GetComponent<Rigidbody>();
-        if (Input.GetKey(KeyCode.A) && !onSlope)
+
+        if (Input.GetKey(KeyCode.A) && !onSlope) 
         {
             rb.AddForce(Vector3.left * speed);
+            isWalking = true;
             goToRotation = 0f;
             isMoving = true;
         }
-        if (Input.GetKey(KeyCode.D) && !onSlope)
+        if (Input.GetKey(KeyCode.D) && !onSlope) 
         {
             rb.AddForce(Vector3.right * speed);
+            isWalking = true;
             goToRotation = -180f;
             isMoving = true;
         }
@@ -71,7 +80,12 @@ public class PlayerController : MonoBehaviour
         if (Input.GetKey(KeyCode.Space) && isGrounded)
         {
             rb.AddForce(Vector3.up * speed * jumpFactor);
+            animator.SetTrigger("Jump");
         }
+
+        if (Input.GetKeyUp(KeyCode.A)) isWalking = false;
+        else if (Input.GetKeyUp(KeyCode.D)) isWalking = false;
+        else if (Input.GetKey(KeyCode.D) && Input.GetKey(KeyCode.A)) isWalking = false;
 
         if (rb.velocity.magnitude > maxVelocity)
         {
@@ -94,5 +108,12 @@ public class PlayerController : MonoBehaviour
         root.rotation = Quaternion.RotateTowards(root.rotation, Quaternion.Euler(new Vector3(0, goToRotation, 0)), Time.deltaTime * rotationSpeed);
 
         animator.SetBool("isRunning", isMoving);
+    }
+
+    private void WalkFootSteps() 
+    {
+        if (!isWalking) return;
+              
+        if(isGrounded) audioManager.Play("footstep");
     }
 }
