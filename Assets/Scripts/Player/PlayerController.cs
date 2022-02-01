@@ -29,6 +29,7 @@ public class PlayerController : MonoBehaviour
         if (other.gameObject.CompareTag("Slope"))
         {
             onSlope = true;
+            animator.SetBool("Slide", true);
         }
     }
 
@@ -41,6 +42,7 @@ public class PlayerController : MonoBehaviour
         if (other.gameObject.CompareTag("Slope"))
         {
             onSlope = false;
+            animator.SetBool("Slide", false);
         }
     }
 
@@ -102,8 +104,6 @@ public class PlayerController : MonoBehaviour
             rb.AddForce(new Vector3(1, 0, 0));
             goToRotation = -180;
         }
-
-        if (Input.GetKey(KeyCode.Return)) animator.SetTrigger("Slide");
 
         root.rotation = Quaternion.RotateTowards(root.rotation, Quaternion.Euler(new Vector3(0, goToRotation, 0)), Time.deltaTime * rotationSpeed);
 
