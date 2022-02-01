@@ -23,10 +23,4 @@ public class PlayerRaycast : MonoBehaviour
         }
         return false;
     }
-
-    private void Update()
-    {
-        Ray ray = new Ray(transform.position, transform.forward);
-        Debug.DrawRay(ray.origin, ray.direction * 10);
-    }
 }
