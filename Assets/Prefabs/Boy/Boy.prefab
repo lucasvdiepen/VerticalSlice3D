@@ -1,5 +1,49 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &818595750
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 818595751}
+  - component: {fileID: 818595752}
+  m_Layer: 0
+  m_Name: RaycastBlock
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &818595751
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 818595750}
+  m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
+  m_LocalPosition: {x: 0, y: 0.0451, z: 0}
+  m_LocalScale: {x: 0.063789986, y: 0.063789956, z: 0.063789986}
+  m_Children: []
+  m_Father: {fileID: 6649224776451888015}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 270, z: 0}
+--- !u!114 &818595752
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 818595750}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cbf3aef67674f147a8501764f07c656, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  raycastLength: 100
 --- !u!1 &22689988266561635
 GameObject:
   m_ObjectHideFlags: 0
@@ -1957,6 +2001,7 @@ GameObject:
   - component: {fileID: 919132148830613850}
   - component: {fileID: 919132148830613849}
   - component: {fileID: 1700687532}
+  - component: {fileID: 651409301}
   m_Layer: 0
   m_Name: Boy
   m_TagString: Player
@@ -1973,9 +2018,10 @@ Transform:
   m_GameObject: {fileID: 6272698546824431925}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.18231678, y: 14.73737, z: -0.786973}
-  m_LocalScale: {x: 13.963, y: 13.963, z: 13.963}
+  m_LocalScale: {x: 10.438322, y: 10.43832, z: 10.438322}
   m_Children:
   - {fileID: 8063907944664492194}
+  - {fileID: 818595751}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2022,11 +2068,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   root: {fileID: 8063907944664492194}
+  isWalking: 0
+  audioManager: {fileID: 0}
   maxVelocity: 10
   speed: 0.8
   jumpFactor: 7
   rotationSpeed: 1300
   animator: {fileID: 795427611}
+--- !u!114 &651409301
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6272698546824431925}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6dfc11a8a331f548a2b071d5fa75f15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6367094577627761361
 GameObject:
   m_ObjectHideFlags: 0
