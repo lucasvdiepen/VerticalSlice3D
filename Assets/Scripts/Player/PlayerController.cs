@@ -15,6 +15,8 @@ public class PlayerController : MonoBehaviour
     private bool onSlope;
     private float goToRotation = 0f;
     [SerializeField] private Animator animator;
+    private bool isJumpSpeedApplied = false;
+    [SerializeField] private float extraJumpSpeed = 2f;
 
     private void Awake() {
         InvokeRepeating("WalkFootSteps", 0, .5f);
@@ -25,11 +27,17 @@ public class PlayerController : MonoBehaviour
         {
             isGrounded = true;
             audioManager.Play("landing");
+
+            if (isJumpSpeedApplied)
+            {
+                speed -= extraJumpSpeed;
+                isJumpSpeedApplied = false;
+            }
         }
         if (other.gameObject.CompareTag("Slope"))
         {
             onSlope = true;
-            animator.SetBool("Slide", true);
+            //animator.SetBool("Slide", true);
         }
     }
 
@@ -42,7 +50,7 @@ public class PlayerController : MonoBehaviour
         if (other.gameObject.CompareTag("Slope"))
         {
             onSlope = false;
-            animator.SetBool("Slide", false);
+            //animator.SetBool("Slide", false);
         }
     }
 
@@ -87,6 +95,12 @@ public class PlayerController : MonoBehaviour
         {
             rb.AddForce(Vector3.up * speed * jumpFactor);
             animator.SetTrigger("Jump");
+
+            if(!isJumpSpeedApplied)
+            {
+                speed += extraJumpSpeed;
+                isJumpSpeedApplied = true;
+            }
         }
 
         if (Input.GetKeyUp(KeyCode.A)) isWalking = false;

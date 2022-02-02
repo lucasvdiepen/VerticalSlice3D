@@ -719,6 +719,10 @@ PrefabInstance:
       propertyPath: audioManager
       value: 
       objectReference: {fileID: 493796103}
+    - target: {fileID: 1700687532, guid: a7347cc87ea005045bd25c67be253fd3, type: 3}
+      propertyPath: extraJumpSpeed
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 919132148830613850, guid: a7347cc87ea005045bd25c67be253fd3, type: 3}
       propertyPath: m_Drag
       value: 0
@@ -1193,6 +1197,14 @@ PrefabInstance:
       propertyPath: target
       value: 
       objectReference: {fileID: 1729700682}
+    - target: {fileID: 8792036653489950662, guid: ee8066f740c080e41b93f27e3543fed5, type: 3}
+      propertyPath: maxSpawnX
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8792036653489950662, guid: ee8066f740c080e41b93f27e3543fed5, type: 3}
+      propertyPath: minSpawnX
+      value: -2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ee8066f740c080e41b93f27e3543fed5, type: 3}
 --- !u!1 &1070542248
