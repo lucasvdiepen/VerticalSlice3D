@@ -55,27 +55,31 @@ public class PlayerController : MonoBehaviour
 
         if (Input.GetKey(KeyCode.A) && !onSlope) 
         {
-            rb.AddForce(Vector3.left * speed);
+            //rb.AddForce(Vector3.left * speed);
+            rb.velocity = new Vector3(-1 * speed, rb.velocity.y, rb.velocity.z);
             isWalking = true;
             goToRotation = 0f;
             isMoving = true;
         }
         if (Input.GetKey(KeyCode.D) && !onSlope) 
         {
-            rb.AddForce(Vector3.right * speed);
+            //rb.AddForce(Vector3.right * speed);
+            rb.velocity = rb.velocity = new Vector3(1 * speed, rb.velocity.y, rb.velocity.z);
             isWalking = true;
             goToRotation = -180f;
             isMoving = true;
         }
         if (Input.GetKey(KeyCode.W))
         {
-            rb.AddForce(Vector3.forward * speed);
+            //rb.AddForce(Vector3.forward * speed);
+            rb.velocity = rb.velocity = new Vector3(rb.velocity.x, rb.velocity.y, 1 * speed);
             goToRotation = -270f;
             isMoving = true;
         }
         if (Input.GetKey(KeyCode.S))
         {
-            rb.AddForce(Vector3.back * speed);
+            //rb.AddForce(Vector3.back * speed);
+            rb.velocity = new Vector3(rb.velocity.x, rb.velocity.y, -1 * speed);
             goToRotation = -90f;
             isMoving = true;
         }

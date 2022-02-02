@@ -667,6 +667,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 818595750, guid: a7347cc87ea005045bd25c67be253fd3, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 818595751, guid: a7347cc87ea005045bd25c67be253fd3, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.846
@@ -696,9 +700,37 @@ PrefabInstance:
       value: -90
       objectReference: {fileID: 0}
     - target: {fileID: 1700687532, guid: a7347cc87ea005045bd25c67be253fd3, type: 3}
+      propertyPath: speed
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1700687532, guid: a7347cc87ea005045bd25c67be253fd3, type: 3}
+      propertyPath: isWalking
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1700687532, guid: a7347cc87ea005045bd25c67be253fd3, type: 3}
+      propertyPath: jumpFactor
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1700687532, guid: a7347cc87ea005045bd25c67be253fd3, type: 3}
+      propertyPath: maxVelocity
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1700687532, guid: a7347cc87ea005045bd25c67be253fd3, type: 3}
       propertyPath: audioManager
       value: 
       objectReference: {fileID: 493796103}
+    - target: {fileID: 919132148830613850, guid: a7347cc87ea005045bd25c67be253fd3, type: 3}
+      propertyPath: m_Drag
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132148830613850, guid: a7347cc87ea005045bd25c67be253fd3, type: 3}
+      propertyPath: m_Mass
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132148830613850, guid: a7347cc87ea005045bd25c67be253fd3, type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6272698546824431925, guid: a7347cc87ea005045bd25c67be253fd3, type: 3}
       propertyPath: m_Name
       value: Boy
@@ -2361,7 +2393,7 @@ MeshCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8152927876205256129}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 5fc43b2ceedb1da4b9ea805f29c048ba, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
