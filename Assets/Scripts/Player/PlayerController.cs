@@ -83,6 +83,7 @@ public class PlayerController : MonoBehaviour
         {
             rb.AddForce(Vector3.up * speed * jumpFactor);
             animator.SetTrigger("Jump");
+            root.rotation = Quaternion.Euler(0, -90, 0);
         }
 
         if (Input.GetKeyUp(KeyCode.A)) isWalking = false;

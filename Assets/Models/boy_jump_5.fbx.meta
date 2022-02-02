@@ -1,0 +1,735 @@
+fileFormatVersion: 2
+guid: 5e236ae079249864a863da54c2fc8d3f
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      74: -2890116472336301843
+    second: R_Enkel_groep|Elebog_CTRL_L|Take 001|BaseLayer
+  - first:
+      74: 2069841026992087331
+    second: R_Enkel_groep|Eleboog_CTRL_R|Take 001|BaseLayer
+  - first:
+      74: -4159734323869442216
+    second: R_Enkel_groep|Foot_CTRL_L|Take 001|BaseLayer
+  - first:
+      74: 3815498175250476787
+    second: R_Enkel_groep|Foot_CTRL_R|Take 001|BaseLayer
+  - first:
+      74: 8232927890763102182
+    second: R_Enkel_groep|Middle_CTRL|Take 001|BaseLayer
+  - first:
+      74: 4228891166254272112
+    second: R_Enkel_groep|Pols_CTRL_L|Take 001|BaseLayer
+  - first:
+      74: 7288320985538213446
+    second: R_Enkel_groep|Pols_CTRL_R|Take 001|BaseLayer
+  - first:
+      74: -7436748641142394681
+    second: R_Enkel_groep|Root_CTRL|Take 001|BaseLayer
+  - first:
+      74: -8237200832474642223
+    second: R_Enkel_groep|Schouder_CTRL_L|Take 001|BaseLayer
+  - first:
+      74: 3319817324244404446
+    second: R_Enkel_groep|Schouder_CTRL_R|Take 001|BaseLayer
+  - first:
+      74: 4113770929773061129
+    second: R_tenen_groep|Elebog_CTRL_L|Take 001|BaseLayer
+  - first:
+      74: 4907758233662938845
+    second: R_tenen_groep|Eleboog_CTRL_R|Take 001|BaseLayer
+  - first:
+      74: 2601826628912888384
+    second: R_tenen_groep|Foot_CTRL_L|Take 001|BaseLayer
+  - first:
+      74: 9168662009587669958
+    second: R_tenen_groep|Foot_CTRL_R|Take 001|BaseLayer
+  - first:
+      74: -3193466969419822813
+    second: R_tenen_groep|Middle_CTRL|Take 001|BaseLayer
+  - first:
+      74: -2934402900348469885
+    second: R_tenen_groep|Pols_CTRL_L|Take 001|BaseLayer
+  - first:
+      74: 7354402307975280224
+    second: R_tenen_groep|Pols_CTRL_R|Take 001|BaseLayer
+  - first:
+      74: -439018143764065914
+    second: R_tenen_groep|Root_CTRL|Take 001|BaseLayer
+  - first:
+      74: -999128095462330139
+    second: R_tenen_groep|Schouder_CTRL_L|Take 001|BaseLayer
+  - first:
+      74: 3600491765055381712
+    second: R_tenen_groep|Schouder_CTRL_R|Take 001|BaseLayer
+  - first:
+      74: -1093057482252942829
+    second: R_hiel_control_groep|Elebog_CTRL_L|Take 001|BaseLayer
+  - first:
+      74: -557755693192844443
+    second: R_hiel_control_groep|Eleboog_CTRL_R|Take 001|BaseLayer
+  - first:
+      74: -3311272805529265827
+    second: R_hiel_control_groep|Foot_CTRL_L|Take 001|BaseLayer
+  - first:
+      74: 38564682220590330
+    second: R_hiel_control_groep|Foot_CTRL_R|Take 001|BaseLayer
+  - first:
+      74: 4989258589329921338
+    second: R_hiel_control_groep|Middle_CTRL|Take 001|BaseLayer
+  - first:
+      74: 3026103130741122633
+    second: R_hiel_control_groep|Pols_CTRL_L|Take 001|BaseLayer
+  - first:
+      74: -3536190916072406145
+    second: R_hiel_control_groep|Pols_CTRL_R|Take 001|BaseLayer
+  - first:
+      74: -832392074019933427
+    second: R_hiel_control_groep|Root_CTRL|Take 001|BaseLayer
+  - first:
+      74: -5399949685331013930
+    second: R_hiel_control_groep|Schouder_CTRL_L|Take 001|BaseLayer
+  - first:
+      74: -2368258902764422004
+    second: R_hiel_control_groep|Schouder_CTRL_R|Take 001|BaseLayer
+  - first:
+      74: -6948300600076373541
+    second: R_teen_control_groep|Elebog_CTRL_L|Take 001|BaseLayer
+  - first:
+      74: 8816462030819259874
+    second: R_teen_control_groep|Eleboog_CTRL_R|Take 001|BaseLayer
+  - first:
+      74: -5085754596840994206
+    second: R_teen_control_groep|Foot_CTRL_L|Take 001|BaseLayer
+  - first:
+      74: 1597903319534020410
+    second: R_teen_control_groep|Foot_CTRL_R|Take 001|BaseLayer
+  - first:
+      74: -4779545551275407295
+    second: R_teen_control_groep|Middle_CTRL|Take 001|BaseLayer
+  - first:
+      74: 145167876479111149
+    second: R_teen_control_groep|Pols_CTRL_L|Take 001|BaseLayer
+  - first:
+      74: -1237989131794699113
+    second: R_teen_control_groep|Pols_CTRL_R|Take 001|BaseLayer
+  - first:
+      74: -387357528546673834
+    second: R_teen_control_groep|Root_CTRL|Take 001|BaseLayer
+  - first:
+      74: 2214653467996476102
+    second: R_teen_control_groep|Schouder_CTRL_L|Take 001|BaseLayer
+  - first:
+      74: 1501573852752813232
+    second: R_teen_control_groep|Schouder_CTRL_R|Take 001|BaseLayer
+  - first:
+      74: -2632305067653143576
+    second: Foot_CTRL_R|Elebog_CTRL_L|Take 001|BaseLayer
+  - first:
+      74: -6769929564505135492
+    second: Foot_CTRL_R|Eleboog_CTRL_R|Take 001|BaseLayer
+  - first:
+      74: -5971972728512672353
+    second: Foot_CTRL_R|Foot_CTRL_L|Take 001|BaseLayer
+  - first:
+      74: -1710508862837809178
+    second: Foot_CTRL_R|Foot_CTRL_R|Take 001|BaseLayer
+  - first:
+      74: -8558862827472485016
+    second: Foot_CTRL_R|Middle_CTRL|Take 001|BaseLayer
+  - first:
+      74: 1708987339929442160
+    second: Foot_CTRL_R|Pols_CTRL_L|Take 001|BaseLayer
+  - first:
+      74: 4165255393147132719
+    second: Foot_CTRL_R|Pols_CTRL_R|Take 001|BaseLayer
+  - first:
+      74: 3462978945940570166
+    second: Foot_CTRL_R|Root_CTRL|Take 001|BaseLayer
+  - first:
+      74: 1226963968860833148
+    second: Foot_CTRL_R|Schouder_CTRL_L|Take 001|BaseLayer
+  - first:
+      74: -7547751468299100302
+    second: Foot_CTRL_R|Schouder_CTRL_R|Take 001|BaseLayer
+  - first:
+      74: 2894174784348118720
+    second: L_Enkel_groep|Elebog_CTRL_L|Take 001|BaseLayer
+  - first:
+      74: -2117799299838552309
+    second: L_Enkel_groep|Eleboog_CTRL_R|Take 001|BaseLayer
+  - first:
+      74: 5853978082084672518
+    second: L_Enkel_groep|Foot_CTRL_L|Take 001|BaseLayer
+  - first:
+      74: -6979704287315074582
+    second: L_Enkel_groep|Foot_CTRL_R|Take 001|BaseLayer
+  - first:
+      74: 6255925541933598430
+    second: L_Enkel_groep|Middle_CTRL|Take 001|BaseLayer
+  - first:
+      74: 1658358970637757204
+    second: L_Enkel_groep|Pols_CTRL_L|Take 001|BaseLayer
+  - first:
+      74: 7855404105152197431
+    second: L_Enkel_groep|Pols_CTRL_R|Take 001|BaseLayer
+  - first:
+      74: -6658183415694187966
+    second: L_Enkel_groep|Root_CTRL|Take 001|BaseLayer
+  - first:
+      74: -4498659695291095702
+    second: L_Enkel_groep|Schouder_CTRL_L|Take 001|BaseLayer
+  - first:
+      74: 1157768215206750907
+    second: L_Enkel_groep|Schouder_CTRL_R|Take 001|BaseLayer
+  - first:
+      74: -9076564607732711240
+    second: L_Tenen_groep|Elebog_CTRL_L|Take 001|BaseLayer
+  - first:
+      74: 6300370082378432809
+    second: L_Tenen_groep|Eleboog_CTRL_R|Take 001|BaseLayer
+  - first:
+      74: -2189801628511613479
+    second: L_Tenen_groep|Foot_CTRL_L|Take 001|BaseLayer
+  - first:
+      74: 7349706756530671188
+    second: L_Tenen_groep|Foot_CTRL_R|Take 001|BaseLayer
+  - first:
+      74: 4791981542687472950
+    second: L_Tenen_groep|Middle_CTRL|Take 001|BaseLayer
+  - first:
+      74: -138241027717942862
+    second: L_Tenen_groep|Pols_CTRL_L|Take 001|BaseLayer
+  - first:
+      74: 7737581782207661909
+    second: L_Tenen_groep|Pols_CTRL_R|Take 001|BaseLayer
+  - first:
+      74: -1460582285541670938
+    second: L_Tenen_groep|Root_CTRL|Take 001|BaseLayer
+  - first:
+      74: -2068301551729069983
+    second: L_Tenen_groep|Schouder_CTRL_L|Take 001|BaseLayer
+  - first:
+      74: 3665045253946335158
+    second: L_Tenen_groep|Schouder_CTRL_R|Take 001|BaseLayer
+  - first:
+      74: 9154970382160184862
+    second: L_hiel_control_groep|Elebog_CTRL_L|Take 001|BaseLayer
+  - first:
+      74: 8473323366235280987
+    second: L_hiel_control_groep|Eleboog_CTRL_R|Take 001|BaseLayer
+  - first:
+      74: -2516244548002589234
+    second: L_hiel_control_groep|Foot_CTRL_L|Take 001|BaseLayer
+  - first:
+      74: -4545170842668883919
+    second: L_hiel_control_groep|Foot_CTRL_R|Take 001|BaseLayer
+  - first:
+      74: 8886897007987321900
+    second: L_hiel_control_groep|Middle_CTRL|Take 001|BaseLayer
+  - first:
+      74: 596322622626571047
+    second: L_hiel_control_groep|Pols_CTRL_L|Take 001|BaseLayer
+  - first:
+      74: -7649437319371830099
+    second: L_hiel_control_groep|Pols_CTRL_R|Take 001|BaseLayer
+  - first:
+      74: -6717889357049177700
+    second: L_hiel_control_groep|Root_CTRL|Take 001|BaseLayer
+  - first:
+      74: -464826851350626691
+    second: L_hiel_control_groep|Schouder_CTRL_L|Take 001|BaseLayer
+  - first:
+      74: -5712570564618232610
+    second: L_hiel_control_groep|Schouder_CTRL_R|Take 001|BaseLayer
+  - first:
+      74: 3962212243752478269
+    second: L_teen_control_groep|Elebog_CTRL_L|Take 001|BaseLayer
+  - first:
+      74: -4580266834620571832
+    second: L_teen_control_groep|Eleboog_CTRL_R|Take 001|BaseLayer
+  - first:
+      74: 5577398330472417341
+    second: L_teen_control_groep|Foot_CTRL_L|Take 001|BaseLayer
+  - first:
+      74: -8981563673074137622
+    second: L_teen_control_groep|Foot_CTRL_R|Take 001|BaseLayer
+  - first:
+      74: 3529812349591754873
+    second: L_teen_control_groep|Middle_CTRL|Take 001|BaseLayer
+  - first:
+      74: 2991962560019041593
+    second: L_teen_control_groep|Pols_CTRL_L|Take 001|BaseLayer
+  - first:
+      74: 4052364393203080060
+    second: L_teen_control_groep|Pols_CTRL_R|Take 001|BaseLayer
+  - first:
+      74: 6249989356790607010
+    second: L_teen_control_groep|Root_CTRL|Take 001|BaseLayer
+  - first:
+      74: -5281115301565711084
+    second: L_teen_control_groep|Schouder_CTRL_L|Take 001|BaseLayer
+  - first:
+      74: -4924526508860435130
+    second: L_teen_control_groep|Schouder_CTRL_R|Take 001|BaseLayer
+  - first:
+      74: 1159550307691937252
+    second: Foot_CTRL_L|Elebog_CTRL_L|Take 001|BaseLayer
+  - first:
+      74: 3702409000354629483
+    second: Foot_CTRL_L|Eleboog_CTRL_R|Take 001|BaseLayer
+  - first:
+      74: -7360832771201637924
+    second: Foot_CTRL_L|Foot_CTRL_L|Take 001|BaseLayer
+  - first:
+      74: -2081843896183025837
+    second: Foot_CTRL_L|Foot_CTRL_R|Take 001|BaseLayer
+  - first:
+      74: 1815260554143596819
+    second: Foot_CTRL_L|Middle_CTRL|Take 001|BaseLayer
+  - first:
+      74: -453424248933147503
+    second: Foot_CTRL_L|Pols_CTRL_L|Take 001|BaseLayer
+  - first:
+      74: -6291302579467823931
+    second: Foot_CTRL_L|Pols_CTRL_R|Take 001|BaseLayer
+  - first:
+      74: 6640057612264691791
+    second: Foot_CTRL_L|Root_CTRL|Take 001|BaseLayer
+  - first:
+      74: 2241647749489127728
+    second: Foot_CTRL_L|Schouder_CTRL_L|Take 001|BaseLayer
+  - first:
+      74: -6091747192251500720
+    second: Foot_CTRL_L|Schouder_CTRL_R|Take 001|BaseLayer
+  - first:
+      74: 6008151467956704924
+    second: Pols_CTRL_R|Elebog_CTRL_L|Take 001|BaseLayer
+  - first:
+      74: 7927806408788816
+    second: Pols_CTRL_R|Eleboog_CTRL_R|Take 001|BaseLayer
+  - first:
+      74: -8513701460102797134
+    second: Pols_CTRL_R|Foot_CTRL_L|Take 001|BaseLayer
+  - first:
+      74: 5429099971789729154
+    second: Pols_CTRL_R|Foot_CTRL_R|Take 001|BaseLayer
+  - first:
+      74: -7990127294419906261
+    second: Pols_CTRL_R|Middle_CTRL|Take 001|BaseLayer
+  - first:
+      74: 8924758795178189504
+    second: Pols_CTRL_R|Pols_CTRL_L|Take 001|BaseLayer
+  - first:
+      74: 4915756120888522163
+    second: Pols_CTRL_R|Pols_CTRL_R|Take 001|BaseLayer
+  - first:
+      74: -7048725717287579848
+    second: Pols_CTRL_R|Root_CTRL|Take 001|BaseLayer
+  - first:
+      74: -3929364763853670667
+    second: Pols_CTRL_R|Schouder_CTRL_L|Take 001|BaseLayer
+  - first:
+      74: -1093048405039475155
+    second: Pols_CTRL_R|Schouder_CTRL_R|Take 001|BaseLayer
+  - first:
+      74: 5571102165173585584
+    second: Eleboog_CTRL_R|Elebog_CTRL_L|Take 001|BaseLayer
+  - first:
+      74: -1342247294747064194
+    second: Eleboog_CTRL_R|Eleboog_CTRL_R|Take 001|BaseLayer
+  - first:
+      74: -5347934691865535564
+    second: Eleboog_CTRL_R|Foot_CTRL_L|Take 001|BaseLayer
+  - first:
+      74: -3222356331135554163
+    second: Eleboog_CTRL_R|Foot_CTRL_R|Take 001|BaseLayer
+  - first:
+      74: -7322882811432783479
+    second: Eleboog_CTRL_R|Middle_CTRL|Take 001|BaseLayer
+  - first:
+      74: 6924920493641751050
+    second: Eleboog_CTRL_R|Pols_CTRL_L|Take 001|BaseLayer
+  - first:
+      74: -6326211458025095019
+    second: Eleboog_CTRL_R|Pols_CTRL_R|Take 001|BaseLayer
+  - first:
+      74: -1977912022970873042
+    second: Eleboog_CTRL_R|Root_CTRL|Take 001|BaseLayer
+  - first:
+      74: 7817604215098182626
+    second: Eleboog_CTRL_R|Schouder_CTRL_L|Take 001|BaseLayer
+  - first:
+      74: -441094820023842850
+    second: Eleboog_CTRL_R|Schouder_CTRL_R|Take 001|BaseLayer
+  - first:
+      74: -5114478292142166347
+    second: Schouder_CTRL_R|Elebog_CTRL_L|Take 001|BaseLayer
+  - first:
+      74: -2913057684784729074
+    second: Schouder_CTRL_R|Eleboog_CTRL_R|Take 001|BaseLayer
+  - first:
+      74: 879748067073707165
+    second: Schouder_CTRL_R|Foot_CTRL_L|Take 001|BaseLayer
+  - first:
+      74: -6732786343181382635
+    second: Schouder_CTRL_R|Foot_CTRL_R|Take 001|BaseLayer
+  - first:
+      74: -1771625017942334454
+    second: Schouder_CTRL_R|Middle_CTRL|Take 001|BaseLayer
+  - first:
+      74: 1094075762613453863
+    second: Schouder_CTRL_R|Pols_CTRL_L|Take 001|BaseLayer
+  - first:
+      74: 6332352607045381223
+    second: Schouder_CTRL_R|Pols_CTRL_R|Take 001|BaseLayer
+  - first:
+      74: -3910893592620152958
+    second: Schouder_CTRL_R|Root_CTRL|Take 001|BaseLayer
+  - first:
+      74: -1267382834502404065
+    second: Schouder_CTRL_R|Schouder_CTRL_L|Take 001|BaseLayer
+  - first:
+      74: -8797904267811243039
+    second: Schouder_CTRL_R|Schouder_CTRL_R|Take 001|BaseLayer
+  - first:
+      74: 4984664967866485754
+    second: Duim_CTRL_L|Elebog_CTRL_L|Take 001|BaseLayer
+  - first:
+      74: 8273546583719888889
+    second: Duim_CTRL_L|Eleboog_CTRL_R|Take 001|BaseLayer
+  - first:
+      74: 6749513974476932545
+    second: Duim_CTRL_L|Foot_CTRL_L|Take 001|BaseLayer
+  - first:
+      74: 8192665814873971186
+    second: Duim_CTRL_L|Foot_CTRL_R|Take 001|BaseLayer
+  - first:
+      74: 7774949924175226189
+    second: Duim_CTRL_L|Middle_CTRL|Take 001|BaseLayer
+  - first:
+      74: 2349773979753755702
+    second: Duim_CTRL_L|Pols_CTRL_L|Take 001|BaseLayer
+  - first:
+      74: -8578149040915957060
+    second: Duim_CTRL_L|Pols_CTRL_R|Take 001|BaseLayer
+  - first:
+      74: 4906279847123117052
+    second: Duim_CTRL_L|Root_CTRL|Take 001|BaseLayer
+  - first:
+      74: -6460030744820880872
+    second: Duim_CTRL_L|Schouder_CTRL_L|Take 001|BaseLayer
+  - first:
+      74: 1237502634120104986
+    second: Duim_CTRL_L|Schouder_CTRL_R|Take 001|BaseLayer
+  - first:
+      74: -6587489107569962994
+    second: Pols_CTRL_L|Elebog_CTRL_L|Take 001|BaseLayer
+  - first:
+      74: -3653684136536339013
+    second: Pols_CTRL_L|Eleboog_CTRL_R|Take 001|BaseLayer
+  - first:
+      74: -4760674806070940489
+    second: Pols_CTRL_L|Foot_CTRL_L|Take 001|BaseLayer
+  - first:
+      74: 6313247122083487594
+    second: Pols_CTRL_L|Foot_CTRL_R|Take 001|BaseLayer
+  - first:
+      74: -3709710163393692555
+    second: Pols_CTRL_L|Middle_CTRL|Take 001|BaseLayer
+  - first:
+      74: 2947749980643517425
+    second: Pols_CTRL_L|Pols_CTRL_L|Take 001|BaseLayer
+  - first:
+      74: 6085493550605677720
+    second: Pols_CTRL_L|Pols_CTRL_R|Take 001|BaseLayer
+  - first:
+      74: 8296594098675415237
+    second: Pols_CTRL_L|Root_CTRL|Take 001|BaseLayer
+  - first:
+      74: -3087149937772131477
+    second: Pols_CTRL_L|Schouder_CTRL_L|Take 001|BaseLayer
+  - first:
+      74: -8763207285520659349
+    second: Pols_CTRL_L|Schouder_CTRL_R|Take 001|BaseLayer
+  - first:
+      74: 2883709226709725517
+    second: Elebog_CTRL_L|Elebog_CTRL_L|Take 001|BaseLayer
+  - first:
+      74: -5157546517355660217
+    second: Elebog_CTRL_L|Eleboog_CTRL_R|Take 001|BaseLayer
+  - first:
+      74: 6355394818339343395
+    second: Elebog_CTRL_L|Foot_CTRL_L|Take 001|BaseLayer
+  - first:
+      74: -4747878195422377776
+    second: Elebog_CTRL_L|Foot_CTRL_R|Take 001|BaseLayer
+  - first:
+      74: 2234891277216276432
+    second: Elebog_CTRL_L|Middle_CTRL|Take 001|BaseLayer
+  - first:
+      74: 5993220680067977888
+    second: Elebog_CTRL_L|Pols_CTRL_L|Take 001|BaseLayer
+  - first:
+      74: -2004398451166799555
+    second: Elebog_CTRL_L|Pols_CTRL_R|Take 001|BaseLayer
+  - first:
+      74: -9085149729402248598
+    second: Elebog_CTRL_L|Root_CTRL|Take 001|BaseLayer
+  - first:
+      74: -2183080864988326905
+    second: Elebog_CTRL_L|Schouder_CTRL_L|Take 001|BaseLayer
+  - first:
+      74: 2463082036817097979
+    second: Elebog_CTRL_L|Schouder_CTRL_R|Take 001|BaseLayer
+  - first:
+      74: -7077452970805025665
+    second: Schouder_CTRL_L|Elebog_CTRL_L|Take 001|BaseLayer
+  - first:
+      74: 1969539020946507155
+    second: Schouder_CTRL_L|Eleboog_CTRL_R|Take 001|BaseLayer
+  - first:
+      74: 2797884497191367696
+    second: Schouder_CTRL_L|Foot_CTRL_L|Take 001|BaseLayer
+  - first:
+      74: 219853064303612159
+    second: Schouder_CTRL_L|Foot_CTRL_R|Take 001|BaseLayer
+  - first:
+      74: 265690626743519223
+    second: Schouder_CTRL_L|Middle_CTRL|Take 001|BaseLayer
+  - first:
+      74: 3871853272515968846
+    second: Schouder_CTRL_L|Pols_CTRL_L|Take 001|BaseLayer
+  - first:
+      74: 7304439809037572109
+    second: Schouder_CTRL_L|Pols_CTRL_R|Take 001|BaseLayer
+  - first:
+      74: 2670400520930642860
+    second: Schouder_CTRL_L|Root_CTRL|Take 001|BaseLayer
+  - first:
+      74: -5845128231491460715
+    second: Schouder_CTRL_L|Schouder_CTRL_L|Take 001|BaseLayer
+  - first:
+      74: 6954974089292356966
+    second: Schouder_CTRL_L|Schouder_CTRL_R|Take 001|BaseLayer
+  - first:
+      74: 3274516151985096660
+    second: Torso_CTRL|Elebog_CTRL_L|Take 001|BaseLayer
+  - first:
+      74: 3525437972789616998
+    second: Torso_CTRL|Eleboog_CTRL_R|Take 001|BaseLayer
+  - first:
+      74: -5838729045213204040
+    second: Torso_CTRL|Foot_CTRL_L|Take 001|BaseLayer
+  - first:
+      74: 8694594155803775813
+    second: Torso_CTRL|Foot_CTRL_R|Take 001|BaseLayer
+  - first:
+      74: -4513994481124971496
+    second: Torso_CTRL|Middle_CTRL|Take 001|BaseLayer
+  - first:
+      74: -3921900069665413560
+    second: Torso_CTRL|Pols_CTRL_L|Take 001|BaseLayer
+  - first:
+      74: 5148839361192830720
+    second: Torso_CTRL|Pols_CTRL_R|Take 001|BaseLayer
+  - first:
+      74: -1596892517667869211
+    second: Torso_CTRL|Root_CTRL|Take 001|BaseLayer
+  - first:
+      74: -2814758686015919601
+    second: Torso_CTRL|Schouder_CTRL_L|Take 001|BaseLayer
+  - first:
+      74: 8580418789663966136
+    second: Torso_CTRL|Schouder_CTRL_R|Take 001|BaseLayer
+  - first:
+      74: 2498657953291046523
+    second: Middle_CTRL|Elebog_CTRL_L|Take 001|BaseLayer
+  - first:
+      74: 3485708473596827341
+    second: Middle_CTRL|Eleboog_CTRL_R|Take 001|BaseLayer
+  - first:
+      74: 9036318909947819928
+    second: Middle_CTRL|Foot_CTRL_L|Take 001|BaseLayer
+  - first:
+      74: -8380878846670891407
+    second: Middle_CTRL|Foot_CTRL_R|Take 001|BaseLayer
+  - first:
+      74: -3601226041233583202
+    second: Middle_CTRL|Middle_CTRL|Take 001|BaseLayer
+  - first:
+      74: -2881743247367990773
+    second: Middle_CTRL|Pols_CTRL_L|Take 001|BaseLayer
+  - first:
+      74: -8328413642706670733
+    second: Middle_CTRL|Pols_CTRL_R|Take 001|BaseLayer
+  - first:
+      74: 7247146770653409431
+    second: Middle_CTRL|Root_CTRL|Take 001|BaseLayer
+  - first:
+      74: -8516654122963862449
+    second: Middle_CTRL|Schouder_CTRL_L|Take 001|BaseLayer
+  - first:
+      74: 6207316694214742887
+    second: Middle_CTRL|Schouder_CTRL_R|Take 001|BaseLayer
+  - first:
+      74: 5862543501114407046
+    second: Armature|Armature|Take 001|BaseLayer
+  - first:
+      74: 1760547011204193734
+    second: Armature|Elebog_CTRL_L|Take 001|BaseLayer
+  - first:
+      74: -874447906976950148
+    second: Armature|Eleboog_CTRL_R|Take 001|BaseLayer
+  - first:
+      74: 8724551372785713511
+    second: Armature|Foot_CTRL_L|Take 001|BaseLayer
+  - first:
+      74: -6437726602443207052
+    second: Armature|Foot_CTRL_R|Take 001|BaseLayer
+  - first:
+      74: 4107933615004974937
+    second: Armature|Middle_CTRL|Take 001|BaseLayer
+  - first:
+      74: 2404619034213220851
+    second: Armature|Pols_CTRL_L|Take 001|BaseLayer
+  - first:
+      74: 2076495150294123103
+    second: Armature|Pols_CTRL_R|Take 001|BaseLayer
+  - first:
+      74: -2759672922335481742
+    second: Armature|Root_CTRL|Take 001|BaseLayer
+  - first:
+      74: -8073570901180860038
+    second: Armature|Schouder_CTRL_L|Take 001|BaseLayer
+  - first:
+      74: -6816505191144877274
+    second: Armature|Schouder_CTRL_R|Take 001|BaseLayer
+  - first:
+      74: 2794281632655548536
+    second: Root_CTRL|Elebog_CTRL_L|Take 001|BaseLayer
+  - first:
+      74: 5577409021267683407
+    second: Root_CTRL|Eleboog_CTRL_R|Take 001|BaseLayer
+  - first:
+      74: -843978748269068702
+    second: Root_CTRL|Foot_CTRL_L|Take 001|BaseLayer
+  - first:
+      74: -3758888134702024430
+    second: Root_CTRL|Foot_CTRL_R|Take 001|BaseLayer
+  - first:
+      74: -1780776683807694643
+    second: Root_CTRL|Middle_CTRL|Take 001|BaseLayer
+  - first:
+      74: 7125017481936437545
+    second: Root_CTRL|Pols_CTRL_L|Take 001|BaseLayer
+  - first:
+      74: 6889872697759096306
+    second: Root_CTRL|Pols_CTRL_R|Take 001|BaseLayer
+  - first:
+      74: 9031389078586935306
+    second: Root_CTRL|Root_CTRL|Take 001|BaseLayer
+  - first:
+      74: -1097354439494039412
+    second: Root_CTRL|Schouder_CTRL_L|Take 001|BaseLayer
+  - first:
+      74: -8589226129116357350
+    second: Root_CTRL|Schouder_CTRL_R|Take 001|BaseLayer
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
