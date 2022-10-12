@@ -6,3 +6,8 @@
 
 <h4> Wat is de opdracht precies? </h4>
 <h4> Wij gaan in deze module met vier developers en vier artists 10 tot 15 seconden uit een game precies namaken.</h4>
+
+Who worked on which branch:   
+Bart:   
+Raycasts - https://github.com/lucasvdiepen/VerticalSlice3D/tree/feature/playerRaycast   
+Player controller - https://github.com/lucasvdiepen/VerticalSlice3D/tree/feature/playercontroller   
